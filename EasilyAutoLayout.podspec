@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "This framework uses user friendly terms to deal with Swift Auto Layout so that the developer does not need to take care of positioning as much."
 
-  spec.homepage     = "http://EXAMPLE/EasilyAutoLayout"
+  spec.homepage     = "https://docs.google.com/document/d/17uCbZOBAA17N5j6No8VQxft62CUQoG0bmbXY-QlDrqI/edit?usp=sharing"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -37,7 +37,7 @@ Pod::Spec.new do |spec|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  spec.license      = "MIT"
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
