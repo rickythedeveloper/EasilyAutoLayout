@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		9C4459DC243B59EB004DA4AA /* EasilyAutoLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C4459DA243B59EB004DA4AA /* EasilyAutoLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C4459E3243B5A27004DA4AA /* UIVIew+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4459E2243B5A27004DA4AA /* UIVIew+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9C4459D7243B59EB004DA4AA /* EasilyAutoLayout.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EasilyAutoLayout.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4459DA243B59EB004DA4AA /* EasilyAutoLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasilyAutoLayout.h; sourceTree = "<group>"; };
 		9C4459DB243B59EB004DA4AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4459E2243B5A27004DA4AA /* UIVIew+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIVIew+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +48,7 @@
 		9C4459D9243B59EB004DA4AA /* EasilyAutoLayout */ = {
 			isa = PBXGroup;
 			children = (
+				9C4459E2243B5A27004DA4AA /* UIVIew+.swift */,
 				9C4459DA243B59EB004DA4AA /* EasilyAutoLayout.h */,
 				9C4459DB243B59EB004DA4AA /* Info.plist */,
 			);
@@ -95,6 +98,7 @@
 				TargetAttributes = {
 					9C4459D6243B59EB004DA4AA = {
 						CreatedOnToolsVersion = 11.4;
+						LastSwiftMigration = 1140;
 					};
 				};
 			};
@@ -131,6 +135,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4459E3243B5A27004DA4AA /* UIVIew+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +265,7 @@
 		9C4459E0243B59EB004DA4AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G763XN7D9Q;
@@ -276,6 +282,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.rickythedeveloper.EasilyAutoLayout;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +291,7 @@
 		9C4459E1243B59EB004DA4AA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = G763XN7D9Q;
